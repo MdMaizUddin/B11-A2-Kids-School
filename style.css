@@ -50,10 +50,18 @@ header {
 .nav-icon {
   display: none;
 }
+header a {
+  text-decoration: none;
+}
 header ul li {
   list-style-type: none;
   font-size: 1.3vw;
   font-weight: 500;
+}
+.li:hover{
+  size: 100px;
+  cursor: pointer;
+  color: #666;
 }
 header ul {
   display: flex;
@@ -83,6 +91,9 @@ header ul {
   border-style: none;
   background-color: #fea301;
   color: white;
+}
+.navber-part button:hover{
+  cursor: pointer; 
 }
 hr {
   display: none;
@@ -114,6 +125,9 @@ hr {
   border-style: none;
   color: white;
   background-color: black;
+}
+.hero-banner button:hover{
+  background: #474444;
 }
 
 /* Standard Curriculum  */
@@ -148,6 +162,10 @@ hr {
   border: 0.943px solid #fff4dc;
   box-shadow: 0px 0px 28.296px 0.943px rgba(0, 0, 0, 0.05) inset;
 }
+.Curriculum-card:hover{
+    border: 0.943px solid #c8c5bf;
+  box-shadow: 0px 0px 28.296px 0.943px rgba(2, 2, 2, 0.05) inset;
+} 
 .Curriculum-card img {
   width: 40%;
   margin: 0 auto;
@@ -164,14 +182,18 @@ hr {
   font-weight: 500;
   line-height: 28.296px;
 }
-.Curriculum-card button {
+.Curriculum-card button  {
   font-size: 15.091px;
   font-weight: 700;
   line-height: 28.296px;
   border-style: none;
   background: none;
-  color: var(--second-color);
 }
+.Curriculum-card button a{
+  text-decoration: none;
+    color: var(--second-color);
+}
+
 .Curriculum-card-1 {
   background: linear-gradient(180deg, #def5ff 0%, rgba(255, 255, 255, 0) 40%),
     #fff;
@@ -198,6 +220,7 @@ hr {
   border-style: none;
   color: white;
 }
+
 .Curriculum-btn i {
   font-size: 24px;
   font-style: normal;
@@ -235,6 +258,12 @@ hr {
   background: #ffffff;
   border-radius: 16px;
   border-style: none;
+}
+.story-card-1:hover{
+  box-shadow: 0.5px 0.5px 10px 1px;
+}
+.story-card-2:hover{
+  box-shadow: 0.5px 0.5px 10px 1px;
 }
 .story-card-content h4 {
   font-size: 24px;
@@ -290,7 +319,7 @@ hr {
   position: absolute;
   margin-top: -30px;
   margin-left: 38px;
-}
+} 
 .absolute-btn-2 {
   background-color: rgba(149, 178, 38, 1);
 }
@@ -304,6 +333,9 @@ hr {
   color: white;
   margin: 0 auto;
 }
+.story-btn:hover{
+  background: #393939;
+} 
 /* footer part style */
 footer {
   background-color: var(--second-color);
@@ -347,6 +379,9 @@ footer ul li {
   padding-top: 9px;
   font-size: 20px;
   font-weight: 400;
+}
+footer ul li a{
+  text-decoration: none;
   color: rgba(255, 255, 255, 1);
 }
 .footer-icon {
@@ -610,4 +645,12 @@ footer ul li {
     gap: 80px;
     padding: 60px 30px;
   }
+}
+@media screen and (min-width: 1440px) {
+  
+.hero-banner p {
+  font-size: 15px;
+  font-weight: 300;
+  width: 400px;
+}
 }
