@@ -43,9 +43,8 @@ body {
 
 /* navber part style */
 header {
-  margin: 0 auto;
-  padding: 20px 10px;
-  max-width: 1160px;
+  
+
 }
 .nav-icon {
   display: none;
@@ -71,7 +70,9 @@ header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+    padding: 20px 0px;
+  max-width: 1160px;
+  margin: 0 auto;
 }
 .logo-part {
   display: flex;
@@ -95,18 +96,17 @@ header ul {
 .navber-part button:hover{
   cursor: pointer; 
 }
-hr {
-  display: none;
-}
 .marquee {
-  margin: 10px 20px;
+  margin: 10px 10px;
 }
 /* hero part */
 .hero-banner {
   display: flex;
   align-items: center;
   gap: 50px;
-  padding: 0 20px;
+    padding: 20px 0px;
+  max-width: 1160px;
+  margin: 0 auto;
 }
 .hero-banner h1 {
   font-size: 3.5vw;
@@ -406,18 +406,10 @@ footer ul li a{
     display: none;
   }
   .navber-part {
-    padding: 0 0px;
+    border: 2px solid rgb(253, 176, 61);
+    padding: 10px 10px;
   }
-  .marquee {
-    margin: 10px 0px;
-  }
-  hr {
-    display: block;
-
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border: 1px solid #fea301;
-  }
+ 
   .nav-icon {
     display: block;
   }
